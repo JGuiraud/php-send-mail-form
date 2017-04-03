@@ -1,0 +1,60 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f6f6f6;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    padding-top: .5em;
+}
+
+form {
+
+    padding: 3em;
+}
+
+.error {
+    color:red;
+    font-size:14px;
+}
+
+.validated {
+    color:green;
+    font-size:14px;
+}
+
+.container-emailform {
+    background-color: coral;
+    height: auto;
+    box-shadow: 5px 5px 10px;
+}
+
+label {
+    color:white;
+    font-size: 1.5em;
+}
+
+input, textarea {
+    background: #ededed;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+textarea {
+    height: 7em;
+}
+
+
+.btn {
+    width: 30%;
+    margin-top: 1em;
+    border-radius: 0px;
+}
+
+.btn:hover {
+    background: #d7d7d7;
+}
