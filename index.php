@@ -57,21 +57,21 @@ $messageValidated = false;
         <br>
     <?php
 
- //!!!!!!!!!!!!!!! TO ACTIVATE EMAIL FUNCTION $to to be changed with a correct email !!!!!!!!!!!//
+ //!!!!!!!!!!!!!!! TO ACTIVATE EMAIL FUNCTION ne fonctionne pas !!!!!!!!!!!//
 
     // if($emailValidated && $messageValidated) {
 
-    //     $emailFrom = $_POST["email"];
-    //     $message = $_POST["message"];
+    //     $emailTo = $_POST["email"];
+    //     // $message = $_POST["message"];
 
-    //     $to        = 'email@email.Com';  // <-------------- !!!
+    //     $to        = $emailTo;
     //     $subject   = 'Subject random';
     //     $message   = $_POST["message"];
-    //     $headers = 'From: '.$emailFrom. "\r\n".
-    //     'Reply-To:'.$emailFrom. "\r\n".
+    //     $headers = 'From: test'."\r\n".
+    //     'Reply-To: test'. "\r\n".
     //     'X-Mailer: PHP/' . phpversion();
 
-    //     mail($to, $subject, $message, $emailFrom);
+    //     mail($to, $subject, $message, null);
 
     // }
 
